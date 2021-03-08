@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wesley Gessner" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -12,17 +13,18 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>Document</title>
+    <title>DevChallenge</title>
   </head>
   <body>
     <header class="header-container">
       <h1>DevChallenge</h1>
 
-
       <nav>
-        <input type="checkbox" id="toggle">
-        <label for="toggle" class="toggle-menu"><img src="assets/menu-24px.svg" alt="Menu icon"></label>
-        
+        <input type="checkbox" id="toggle" />
+        <label for="toggle" class="toggle-menu"
+          ><img src="assets/menu-24px.svg" alt="Menu icon"
+        /></label>
+
         <ul class="menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">Features</a></li>
@@ -31,16 +33,20 @@
       </nav>
     </header>
 
-
     <main>
       <section class="hero-container">
-          <img src="./assets/team.jpg" alt="team" class="hero-image">
-
-
+        <div class="text-container">
           <h2 class="hero-title">Create amazing graphics</h2>
-          <span class="hero-text">Colaborate and create beautiful graphics with your team</span>
-  
+          <span class="hero-text"
+            >Colaborate and create beautiful graphics with your team</span
+          >
+
           <a href="#" class="hero-btn">Start now</a>
+        </div>
+
+        <div class="image-container">
+          <img src="./assets/team.jpg" alt="team" class="hero-image" />
+        </div>
       </section>
     </main>
   </body>
