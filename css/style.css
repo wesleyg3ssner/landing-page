@@ -101,7 +101,7 @@
 @media (max-width: 425px) {
   /* Header */
   .header-container {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .header-container h1 {
     font-size: 2rem;
@@ -141,15 +141,15 @@
   }
 
   .text-container .hero-title {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
   .text-container .hero-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .text-container .hero-btn {
-    padding: 15px 80px;
+    padding: 15px 60px;
   }
 
   .image-container {
